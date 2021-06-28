@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+       <head>
+	<meta charset="utf-8"
+    <meta name="author" content="Edson Bila Dos Santos Junior">
+    <meta name=description" content="teste de uma pagina html">
+	<meta name="keywords" content="tag, html, metadados, links">
+	
+	<style>
+	p.ex1{width: 300px;
+	background-color: lightgreen;}
+	p.ex2{width: 300px;
+	paddin: 25px
+	background-color: lightgreen;}
+	
+	p.ex1.2{width: 300px;
+	background-color: lightgreen;}
+	p.ex2.2{width: 300px;
+	paddin: 25px
+	box-sizing: border-box;
+	background-color: lightgreen;}
+	</style>
+		</head>
+<body>
+<h1>Com 4 valores:paddin: 25px 50px 75px 100px;</h1>
+	<p>top paddin: 25px, right paddin: 50, bottom paddin: 75px, left paddin: 100px</p>
+<h1>Com 3 valores:paddin: 25px 50px 75px</h1>
+	<p>top paddin: 25px, right e left paddin: 50, bottom paddin: 75px</P>
+<h1>Com 2 valores:paddin: 25px 50px</h1>
+	<p>top e bottom paddin: 25px, right e left paddin: 50</p>
+<h1>Com 1 valor:paddin: 25px</h1>
+	<p>tudo paddin: 25px</p>
+	
+<h1>Quando um elemento tiver uma largura e for utilizado a
+propriedade padding, esse valor será adicionado à largura total
+do elemento.</h1>
+<p class"ex1">paragrafo com 300px de largura</p>
+p class="ex2">a largura do paragrafo e de 350px, embora esteja definida com 300px no css</p>
+
+<h1>Resolvendo o problema do padding com a propriedade width
+por meio da propriedade box-sizing:border-box.</h1>
+<h3>paddin e elemento width + box-sizing</h3>
+<p class="ex1.2">paragrafo com 300px de largura</p>
+<p class="ex2.2">utilizando o box-sizing</p>
+</body>
+</html>

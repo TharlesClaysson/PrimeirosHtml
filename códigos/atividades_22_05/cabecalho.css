@@ -1,0 +1,51 @@
+.body{
+	background-image:linear-gradient(rgba(255,255,255,1),rgba(255,255,255,0),rgba(255,255,255,1)),url("img/von_neumann.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.menu{
+	background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5),rgba(0,0,0,1)),url("img/menu.jpg");
+	background-size:100% 100%;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}   
+p{  
+    font-family: arial, helvetica, sans-serif;
+	text-indent:50px;
+	text-align:justify;
+	margin:2% 3%;
+}
+div{
+	float:left;
+	width:33%;
+	height:200px;
+	margin:auto;
+}	   
+.img{
+	border: 8px double gray;
+	width:94%;
+	margin:3%;
+}
+h1,h2,ol{
+	text-align:center;
+	color:#ab9ad3;
+}
+.formata{
+	margin-top:330px;
+}
+span{
+	font-weight:bold;
+}
+.center{
+	display:block;
+    width:500px;
+	height:250px;
+	margin:auto;
+}
+li{
+	padding:3%;
+	margin-top:7%;
+	font-size:30px;
+	display:inline-block;
+	background-color:rgba(55,193,189,0.2);
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+<title> Menu </title>
+<style>
+body{
+	background-color: lightblue;
+}
+
+div#menu ol{
+	list-style:none;
+	text-transform:uppercase;
+	padding-top:5%;
+	margin:auto;
+	width:40%;
+}
+
+div#menu li{
+	display: inline;
+	background-color: #dddddd;
+	border: 2px solid black;
+	padding:10px;
+	margin:3px;
+	transition: background-color 3s;
+}
+
+div#menu a{
+	color:black;
+	text-decoration:none;
+}
+
+div#menu li:hover{     /*quando passar o mouse no item da lista*/
+	background-color:red;
+}
+
+div#menu a:hover{ /*quando passar o mouse na palavra link*/
+	color:white;
+	text-decoration: underline;
+}
+
+h3::selection{
+background-color:green;
+}
+
+p.altera:hover{ 
+	color:#4B0082;
+	background-color:#FFB6C1;
+}
+
+figcaption{
+display:none;
+}
+
+figure:hover figcaption{
+display:block;
+}
+
+p.intro::first-letter{
+color: #ff0000;
+font-size:200%
+}
+</style>
+</head>
+<body>
+<div id="menu">
+	<ol>
+		<li> <a href="barra_fixa.html"> Vantagens </a></li>
+		<li><a href="textos/fotos.html">Desvantagens </a></li>
+		<li> <a href="#pesq">Pesquisadores de IA </a></li>
+		<li><a href="http://wwww.algumacoisa.com.br">Artigos </a></li>
+	</ol>
+</div>
+	<h3>Inteligência Artificial </h3>
+	
+	<p class="altera"> Inteligência artificial (por vezes mencionada pela sigla em português IA ou pela sigla em inglês AI - artificial intelligence) é a inteligência similar à humana exibida por mecanismos ou software. Também é um campo de estudo acadêmico. </p>
+
+	<figure>
+		<img src="programar.jpg" alt="computador">
+		<figcaption>“O principal objetivo dos sistemas de IA, é executar funções que, caso um ser humano fosse executar, seriam consideradas inteligentes.</figcaption>
+	</figure>
+	
+	<h4 id="pesq"> Pesquisadores de IA </h4>
+ 
+<h5>Alan Turing (1912-1954)</h5> 
+<p class="intro">Foi um dos homens de maior importância não só para seu tempo, como para a atualidade. Com estudos que não só foram base para a existência da inteligência artificial, mas de quase todos os aparelhos eletrônicos já feitos. Criou seu famoso teste, o “Teste de Turing”, usado até hoje para descobrir o nível de inteligência de um programa de inteligência artificial. Esse teste não foi criado para analisar a capacidade de um computador de pensar por si mesmo, já que as máquinas são completamente incapazes disso, mas sim de identificar o quão bem ele pode imitar o cérebro humano. 
+John McCarthy (1927-2011) Matemático, cientista, o criador do termo “inteligência artificial” e também o pai da linguagem de programação LISP. McCarthy foi considerado um dos primeiros homens a trabalhar no desenvolvimento da inteligência artificial e sempre disse que ela deveria interagir com o homem. Nascido na cidade de Boston, trabalhou na Universidade de Stanford e no Massachusetts Institute of Technology (MIT), além de ter vencido o prêmio Turing em 1972 e a Medalha Nacional de Ciência em 1991. Já a programação LISP, uma das maiores conquistas de McCarthy, surgiu em 1958 e serviu para facilitar o desenvolvimento da inteligência artificial. A linguagem é das mais antigas ainda em uso e foi usada pela primeira vez ao colocar um computador para jogar xadrez contra um adversário humano. 
+Marvin </p>
+	
+	
+</body>
+</html>

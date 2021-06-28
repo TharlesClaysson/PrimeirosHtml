@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<h2>Imagens lado a lado</h2>
+
+
+<div class="clearfix">
+  <div class="img-container">
+  <img src="vida.jpg">
+  </div>
+  <div class="img-container">
+  <img src="vida.jpg">
+  </div>
+  <div class="img-container">
+  <img src="vida.jpg">
+  </div>
+</div>
+
+
+<h2>Pensamentos Rubens</h2>
+
+	<p> "A vida, ela mesma, fica um pouco mais além das coisas que falamos sobre ela.</p>
+	<p>A vida é muito mais que a ciência. </p>
+	<p>"Ciência é uma coisa entre outras, que empregamos na aventura de viver, que é a única coisa que importa.
+	É por isto, além da ciência, é preciso a “sapiência”, ciência saborosa, que tem a ver com a arte de viver. Porque 		toda a ciência seria inútil se, por detrás de tudo aquilo que faz os homens conhecer, eles não se tornassem mais 		sábios, mais tolerantes, mais mansos, mais felizes, mais bonitos..."</p>
+   
+	<p> Rubem Alves </p>
+
+<p>Note that we also use the clearfix hack to take care of the layout flow, and that we add the box-sizing property to make sure that the image container doesn't break due to extra padding. Try to remove this code to see the effect.</p>
+
+</body>
+</html>
